@@ -1,0 +1,31 @@
+{
+  "name": "infinite-off-season-calculator",
+  "version": "1.0.0",
+  "description": "A simple workout tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvengal/infinite-off-season-calculator.git"
+  },
+  "author": "nvengal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvengal/infinite-off-season-calculator/issues"
+  },
+  "homepage": "https://github.com/nvengal/infinite-off-season-calculator#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^4.11.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0"
+  }
+}
