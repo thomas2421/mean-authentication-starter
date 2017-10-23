@@ -162,7 +162,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"text-center\">{{username}}'S HOME</h1>\n<a class=\"btn btn-info main\" (click)=logout()>LOGOUT</a>\n"
+module.exports = "<h1 class=\"text-center\">{{username}}'S HOME</h1>\n<div class=\"row\">\n  <div class=\"text-center main\">\n    <a class=\"btn btn-info main\" (click)=logout()>LOGOUT</a>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -231,7 +231,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/login/login.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"text-center\">\n  <h2 class=\"page-header\">Infinite Off-Season Calculator</h2>\n</div>\n<form autocomplete=\"off\">\n  <div class=\"text-center form-group\">\n    <label>Username</label>\n    <input type=\"text\" [(ngModel)]=\"username\" name=\"username\" class=\"form-control main\" maxlength=\"46\">\n  </div>\n  <div class=\"text-center form-group\">\n    <label>Password</label>\n    <input type=\"password\" [(ngModel)]=\"password\" name=\"password\" class=\"form-control main\" maxlength=\"46\">\n  </div>\n  <div class=\"text-center\">\n    <button type=\"submit\" class=\"btn btn-success\" (click)=login()>Login</button>\n    <button type=\"submit\" class=\"btn btn-success\" (click)=register()>Create</button>\n  </div>\n</form>\n"
+module.exports = "<div class=\"text-center\">\n  <h2 class=\"page-header\">Mean-Authentication-Starter</h2>\n</div>\n<form autocomplete=\"off\">\n  <div class=\"text-center form-group\">\n    <label>Username</label>\n    <input type=\"text\" [(ngModel)]=\"username\" name=\"username\" class=\"form-control main\" maxlength=\"46\">\n  </div>\n  <div class=\"text-center form-group\">\n    <label>Password</label>\n    <input type=\"password\" [(ngModel)]=\"password\" name=\"password\" class=\"form-control main\" maxlength=\"46\">\n  </div>\n  <div class=\"text-center\">\n    <button type=\"submit\" class=\"btn btn-success\" (click)=login()>Login</button>\n    <button type=\"submit\" class=\"btn btn-success\" (click)=register()>Create</button>\n  </div>\n</form>\n"
 
 /***/ }),
 
